@@ -1,0 +1,19 @@
+{
+    "name": "senteza/rss-atom-feed",
+    "description": "Download, save & manage atom feeds from specified URL",
+    "authors": [
+        {
+            "name": "michal",
+            "email": "your@email.here"
+        }
+    ],
+    "require": {
+        "php" : ">=7.0.10",
+        "fguillot/picofeed" : "0.1.35"
+    },
+    "autoload": {
+        "psr-4": {
+            "rssAtomFeed\\" : "src/"
+        }
+    }
+}
